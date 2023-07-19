@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F3F4F6;
+    font-family: "Inter var";
+}
+.nav {
+    display: flex I !important;
+    flex-direction: row !important;
+    background-color: #a2d2ff;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+}
+input, input:focus{
+    width: 18em !important ;
+    outline: none !important;
+    box-shadow: none !important;
+    font-family: "arial";
+   
+}
+
+form {
+    display: flex !important;
+    gap: 1.2em;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.content{
+    display: grid;
+    gap: 5em;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    padding: 4em
+}
