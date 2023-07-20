@@ -6,7 +6,6 @@ import Search from "./components/Search";
 function App() {
   return (
     <>
-      {" "}
       <nav className="nav">
         <h1 className="h1 text-center">
           <i className="bi bi-book"></i>
