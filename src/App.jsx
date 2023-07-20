@@ -4,9 +4,9 @@ import "./App.css";
 import Search from "./components/Search";
 
 function App() {
- 
   return (
     <>
+      {" "}
       <nav className="nav">
         <h1 className="h1 text-center">
           <i className="bi bi-book"></i>
@@ -23,7 +23,7 @@ function App() {
           Read List
         </h1>
       </nav>
-
+      {/* {isLoading && <div className="loader"></div>} */}
       <article className="content">
         <Search />
       </article>
